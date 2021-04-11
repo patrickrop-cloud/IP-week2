@@ -59,7 +59,29 @@
       </ul>
      </p>
   </div>
+</div>
+<form class="row g-3">
+    <div class="col-auto">
+        <input class="form-control" type="text" id="year" placeholder="Enter the Year" aria-label="">
+    </div>
+    <div class="col-auto">
+        <input class="form-control" type="text" id="month" placeholder="Enter the month" aria-label="">
+    </div>
+    <div class="col-auto">
+        <input class="form-control" type="text" id="day_of_month" placeholder="Enter the day" aria-label="">
+    </div>
+    <div class="input-group mb-3">
+      <label class="input-group-text" for="inputGroupSelect01">Gender</label>
+      <select class="form-select" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">Male</option>
 
-
+        <option value="2">Female</option>
+      </select>
+    </div>
+  <div class="col-auto">
+    <button  id = class="btn btn-primary mb-3" onclick="submitButton()">Determine Akan Name</button>
+    
+  </div>
 </body>
 </html>
