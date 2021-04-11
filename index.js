@@ -65,3 +65,27 @@ function submitFunction(){
       var indexOfDay=dayOfWeek-1;
       var nameOfDay=dayPerIndex[indexOfDay];
       return nameOfDay;
+}
+function determineName(gender,dayOfWeek){
+    var dayGender = {
+        male:{
+        Sunday:'Kwasi',
+        Monday :'Kwadwo',
+        Tuesday :'Kwabena',
+        Wednesday:'Kwaku',
+        Thursday:'Yaw',
+        Friday:'Kofi',
+        Sartuday:'Kwame'
+      },
+      female:{
+        Sunday:'Akosua',
+        Monday :'Adwoa',
+        Tuesday :'Abenaa',
+        Wednesday:'Akua',
+        Thursday:'Yaa',
+        Friday:'Afua',
+        Sartuday:'Ama'
+      }
+    }
+    return dayGender[gender][dayOfWeek];;
+}
