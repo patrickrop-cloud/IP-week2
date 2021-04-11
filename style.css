@@ -1,5 +1,5 @@
 h1 {
-    font-size: 200%;
+    font-size: 250%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     color:rgb(19, 199, 64);
@@ -14,4 +14,10 @@ p   {
 }
 body{
     background-color: rgb(231, 206, 172);
+}
+h2 {
+    font-size: 160%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: justify;
 }
