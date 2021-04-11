@@ -3,16 +3,67 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Independent project week2.</title>
     <link rel="stylesheet" href="css/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
 </head>
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 <body>
     <h1>Akan name calculator.</h1>
     <p>Hello, welcome to this simple webpage. This is a project to calculate an Akan name(origin names from Ghanian culture). Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+      <h2>Akan Names</h2>      
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2>Male</h2>
+          <p>These are Male Akan names.</p>
+          <ul>
+            <li>Sunday: Kwasi
+              <li>Monday: Kwadwo</li>
+              <li>Tuesday: Kwabena</li>
+              <li>Wednesday: Kwaku</li>
+              <li>Thursday:  Yaw</li>
+              <li>Friday: Kofi</li>
+              <li>Saturday: Kwame</li>
+          </ul>
+        </div>
+        <div class="column" style="background-color:#aaa;">
+          <h2>Female</h2>
+          <p>These are female Akan names</p>
+          <ul>
+            <li>Sunday: Akosua</li>
+            <li>Monday: Adwoa</li>
+            <li>Tuesday: Abenaa</li>
+            <li>Wednesday: Akua</li>
+            <li>Thursday:  Yaa</li>
+            <li>Friday: Afua</li>
+            <li>Saturday: Ama</li>
+          </ul>
+        </div>
+      </div>
+      
+      </body>
     <div class="dialog">
       <div class="container">
           <div class="row">
