@@ -2,6 +2,8 @@ function dateFunction(){
       var inputedDate = validateDate();
       var inputtedMonth= validateMonth();
       var inputtedYear= validateYear();
+      var inputtedGender = validateGender();
+      var getDay = getDayOfWeek(inputtedDate,inputtedMonth,inputtedYear);
  
       function validateDate(){
       var date = document.getElementById("Date").value;
@@ -38,4 +40,25 @@ function validateMonth(){
       }else{
           alert("please enter year")
       }
-  }
+      function validateGender(){
+            var gender = document.getElementById("mygender").value;
+            if (gender) {
+                if (gender=="male" || gender=="female") {
+                    return gender;
+                }else{
+                    alert("gender should be either male or female");
+                }
+            }else{
+                alert("please select the gender")
+      }
+      function getDayOfWeek(day,month,year){
+            var DD = day;
+            var MM = month;
+            var YY = parseInt(String(year).slice(2,4));
+            var CC = parseInt(String(year).slice(0,2));
+            var dayOfWeek = Math.round( ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);
+            var dayPerIndex=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sartuday"];
+            var indexOfDay=dayOfWeek-1;
+            var nameOfDay=dayPerIndex[indexOfDay];
+            return nameOfDay;
+        }
