@@ -1,10 +1,10 @@
 function submitFunction(){
-      var enteredDate = validateDate();
-      var enteredMonth=validateMonth();
-      var enteredYear= validateYear();
-      var enteredGender = validateGender();
-      var calcutedDay = calcDayOfWeek(enteredDate,enteredMonth,enteredYear);
-      var deterNameCalculated = determineName(enteredGender,calcutedDay);
+      var inputtedDate = validateDate();
+      var inputtedMonth=validateMonth();
+      var inputtedYear= validateYear();
+      var inputtedGender = validateGender();
+      var calcutedDay = calcDayOfWeek(inputtedDate,inputtedMonth,inputtedYear);
+      var deterNameCalculated = determineName(inputtedGender,calcutedDay);
       alert("Your Akan Name is " + deterNameCalculated);
   }
   function validateDate(){
