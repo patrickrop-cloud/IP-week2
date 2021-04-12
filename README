@@ -17,6 +17,8 @@ Use git, Github and any editor or IDE to see the codes and the rendered frontend
 
 This project has used HTMl to collect user' data such as gender,day,month and year, and CSS and bootstrap and creating customized forms as containers and  for styling the page as well. Javascript has also been used for interactivity. This helps us create variables and store values on them to be parsed. 
 
+## Technology used
+In this project, i have used Visual studio code as editor,git to track changes in the local machine, and deployed the web application to github and gh-pages as well.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
