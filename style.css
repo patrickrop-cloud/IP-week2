@@ -4,6 +4,7 @@ h1 {
     font-style: normal;
     color:rgb(19, 199, 64);
     text-align: center;
+    text-decoration: wavy;
    
 }
 p   {
@@ -25,7 +26,14 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 25px;
     backface-visibility: hidden;
+    color: rgb(133, 98, 22);
 
+}
+h4{
+    font-size: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    backface-visibility: initial;
 }
