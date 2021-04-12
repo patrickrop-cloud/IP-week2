@@ -6,6 +6,7 @@ h1 {
     text-align: center;
     text-decoration: wavy;
     text-shadow: 25px;
+    text-rendering: auto;
    
 }
 p   {
@@ -18,10 +19,15 @@ body{
     background-color: rgb(231, 206, 172);
 }
 h2 {
-    font-size: 160%;
+    font-size: 225%;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: justify;
+    color: rgb(25, 31, 2);
+    text-align: left;
+    text-transform: none;
+    text-decoration-color: beige;
+    text-decoration: underline;
 }
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
